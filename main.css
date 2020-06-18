@@ -1,0 +1,190 @@
+h1
+{
+font-size: 60px;
+background-image: linear-gradient(blue,aqua);
+
+}
+
+p{
+    font-family: Verdana;
+}
+
+#crs
+{
+    background-color:purple;
+    font-family: Verdana;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+body
+{
+    background-color: whitesmoke;
+}
+.mytable
+{
+    padding:"5px";
+    border-spacing:"0px";
+}
+#pcs
+{
+    background-color:purple;
+    font-family: Verdana;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+.cnt
+{
+    width:100%;
+    background-color: purple;
+    border-spacing: "50px";
+    color: white;
+    border: purple;
+    border: 1px;
+    text-shadow: 1px 1px black;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    background:purple;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    text-shadow: 2px 2px black;
+}
+li{
+   float: left;
+
+}
+li a{
+    display : block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+#ab
+{
+    color : white;
+}
+
+#rates
+{
+    background-color:purple;
+    font-family: Verdana;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+#bd
+{
+    margin-right: 80px;
+}
+.icons
+{
+   
+    position: fixed;
+    top: 42%;
+    right:0%;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+}
+.icons a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 22px;
+    font-family: "oswald",sans-serif;
+    margin: 2px;
+    text-align: left;
+   border-radius: 50px 0px 0px 50px;
+   transform: translate(180px,0px) ;
+   transition: all 0.5s;
+}
+.icons a:hover{
+    transform: translate(0px,0px);
+}
+.icons a i
+{
+    margin-right: 25px;
+   background-color: white;
+   color: black;
+   line-height: 40px;
+    height: 40px;
+    width: 40px;
+   text-align: center;
+   border-radius: 50%;
+   transition: all 0.5s;
+}
+.icons a:hover i
+{
+    transform: rotateX(360deg);
+}
+.icons a i.fa-facebook-f
+{
+    color: #3b5998;
+ 
+} 
+.icons a i.fa-instagram
+{
+    color: #C13584;
+ 
+} 
+.icons a i.fa-whatsapp
+{
+    color: #4FCE5D
+ 
+} 
+.icons a i.fa-youtube
+{
+    color:	#FF0000;
+ 
+} 
+.icons a i.fa-twitter
+{
+    color: #00acee;
+ 
+} 
+.facebook
+{
+    background-color: #3b5998;
+    color: white;
+}
+.instagram
+{
+    background-color:#C13584;
+    color: white;
+}
+.whatsapp
+{
+    background-color:#4FCE5D;
+    color: white;
+}
+.youtube
+{
+    background-color:	#FF0000;
+    color: white;
+}
+.twitter
+{
+    background-color: #00acee;
+    color: white;
+}
